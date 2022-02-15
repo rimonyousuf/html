@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+	<head>
+		<meta charset="utf-8">
+		<title>Registration form</title>
+	</head>
+	
+	<body>
+		
+		<h2>Registration Form</h2>
+			<form>
+				<div>
+					<label for="fullnamae">Full Name:</label>
+					<input type="text" name="fullnamae" id="fullnamae" required>
+				</div> <br>
+				
+				<div>
+					<label for="email">Email:</label>
+					<input type="email" name="email" id="email">
+				</div> <br>
+				
+				<div>
+					<label for="password">Password:</label>
+					<input type="password" name="password" id="password">
+				</div> <br>
+				
+				<div>
+					<label for="dob">Date of Birth:</label>
+					<input type="date" name="dob" id="dob">
+				</div> <br>
+				
+				<div>
+					<label for="photo">Choose your photo:</label>
+					<input type="file" name="photo" id="photo">
+				</div> <br>
+				
+				<div>
+					<label for="gender">Gender:</label>
+					<input type="radio" name="gender" id="gender" value="Male"> Male
+					<input type="radio" name="gender" id="gender" value="Female"> Female
+				</div> <br>
+				
+				<div>
+					<label for="religion">Religion:</label>
+					<input type="checkbox" name="c1" id="Islam" value="Islam"> Islam
+					<input type="checkbox" name="c1" id="Hindu" value="Hindu"> Hindu
+					<input type="checkbox" name="c1" id="Other" value="Other">Other
+				</div> <br>
+				
+				<div>
+					<label for="department">Department:</label>
+					<select name="department">
+						<option value="CSE">CSE</option>
+						<option value="EEE">EEE</option>
+						<option value="Civil">Civil</option>
+					</select>
+				</div> <br>
+				
+				<div>
+					<label for="comment">Comment:</label> <br>
+					<textarea cols="20" rows="5"></textarea>
+				</div>
+				
+				<div>
+					<input type="submit" value="Register">
+					<input type="reset" value="Clear" disabled>
+				</div>
+				
+			</form>
+	</body>
+
+
+</html>
